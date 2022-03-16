@@ -229,6 +229,10 @@ header::after {
   border-radius: 0.75rem;
   font-size: 1.25rem;
 }
+.form__invitation{
+  margin-left: 3rem;
+  font-size: 1.6rem;
+}
 .icons {
   width: 20%;
 }
@@ -472,6 +476,11 @@ header::after {
   .form-sheet {
     width: 40rem;
   }
+  .form__invitation{
+    margin-left: 6rem;
+    
+  }
+
 
   .form-container {
     width: 100%;
