@@ -71,7 +71,7 @@ header::after {
   clip-path: circle(0px at top right);
   transition: clip-path ease-in-out 450ms;
   margin-right: 30px;
-  
+
   /*   display: none; */
 }
 
@@ -171,8 +171,7 @@ header::after {
     float: right;
     clip-path: initial;
     box-shadow: none;
-  border-radius: 0px;
-    
+    border-radius: 0px;
   }
 
   .site-nav li {
@@ -233,16 +232,14 @@ header::after {
 .icons {
   width: 20%;
 }
-.quesn-pic{
-  width:15%;
-  margin:auto;
-
+.quesn-pic {
+  width: 15%;
+  margin: auto;
 }
-.icon__holder{
+.icon__holder {
   display: flex;
   align-items: center;
 }
-
 
 .form-pic {
   width: 20%;
@@ -250,7 +247,6 @@ header::after {
   margin-left: 50%;
   transform: translateX(-50%);
   display: none;
-
 }
 
 .icon__holder {
@@ -319,21 +315,33 @@ header::after {
 }
 
 .social__element {
+  margin: 1rem;
   display: flex;
   color: white;
+}
+.nameAdvertisement {
+  margin-left: 0rem;
+  padding: 1rem;
+}
+.rights {
+  padding-top: 1rem;
 }
 
 .linker {
   display: flex;
-  margin: 20px 0;
+  flex-direction: column;
+  margin: 1rem;
   color: white;
 }
+
 .col-1 a {
   margin: 10px;
+  padding: 1rem;
   color: white;
 }
 .col-2 a {
   margin: 10px;
+  padding: 1rem;
   color: white;
 }
 
@@ -357,7 +365,6 @@ header::after {
   grid-template-columns: repeat(2, 50%);
   gap: 1rem;
 }
-
 
 .icons {
   width: 200px;
@@ -402,8 +409,8 @@ header::after {
   font-size: 1.5rem;
   color: black;
 }
-.quesn-pic{
-transform:translateX(-50%)
+.quesn-pic {
+  transform: translateX(-50%);
 }
 
 /* main page section ends */
@@ -430,7 +437,7 @@ transform:translateX(-50%)
   .registration {
     padding: 1rem;
   }
-  .quesn-pic{
+  .quesn-pic {
     margin-right: 50%;
     transform: translateX(50%);
   }
@@ -572,7 +579,7 @@ transform:translateX(-50%)
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  
+
   .navbar__footer-links {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -1086,80 +1093,76 @@ transform:translateX(-50%)
   background: #555;
 }
 
-@media (max-width: 1000px ){
-  .grid{
+@media (max-width: 1000px) {
+  .grid {
     margin-left: 0px;
     margin-top: 0px;
   }
-  .titleHeader{
+  .titleHeader {
     margin-top: 0px;
     margin-left: 5px;
   }
-  .namer{
+  .namer {
     font-size: 2rem;
   }
-  .mainPage{
+  .mainPage {
     margin-top: 0px;
     margin-left: 0px;
     padding-left: 5px;
   }
 }
 
-@media (max-width:600px){
-  .titleHeader{
+@media (max-width: 600px) {
+  .titleHeader {
     margin-top: 5px;
     margin-left: 5px;
-    
   }
-  .mainPage{
+  .mainPage {
     margin-top: 0px;
     margin-left: 0px;
     padding-left: 5px;
   }
-  .namer{
+  .namer {
     font-size: 2rem;
   }
 }
-@media (max-width:400px){
-  .titleHeader{
+@media (max-width: 400px) {
+  .titleHeader {
     margin-top: 0px;
     margin-left: 0px;
-    
   }
-  .mainPage{
+  .mainPage {
     margin-top: 0px;
     margin-left: 0px;
     padding-left: 10px;
   }
-  .namer{
+  .namer {
     margin-top: 0px;
   }
- 
 }
 
-.exp{
+.exp {
   display: flex;
   justify-content: space-evenly;
 }
 
-@media ( min-width:1200px){
-  .father{
-    height:120vh;
+@media (min-width: 1200px) {
+  .father {
+    height: 120vh;
   }
 }
 
-.registration__error{
+.registration__error {
   color: red;
   margin-left: 4%;
 }
 
-.form__Message{
+.form__Message {
   color: green;
   margin-left: 4rem;
-
 }
-@media (min-width:1200px){
-  .form__Message{
+@media (min-width: 1200px) {
+  .form__Message {
     color: green;
     margin-left: 6rem;
   }

@@ -52,17 +52,17 @@ function footer() {
         </div>
         <div className="social__element">
           <div className="social__icons">
-            <a href="https://www.instagram.com/mockit.up/">
+            <a href="https://www.instagram.com/mockit.up/" target="_blank">
               <Icon.Instagram size="2rem" />
             </a>
           </div>
           <div className="social__icons">
-            <a href="https://twitter.com/MockIt_Up">
+            <a href="https://twitter.com/MockIt_Up" target="_blank">
               <Icon.Twitter size="2rem" />
             </a>
           </div>
           <div className="social__icons">
-            <a href="http://linkedin.com/company/mockit-up/">
+            <a href="http://linkedin.com/company/mockit-up/" target="_blank">
               <Icon.Linkedin size="2rem" />
             </a>
           </div>

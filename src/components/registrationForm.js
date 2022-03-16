@@ -78,7 +78,7 @@ function RegistrationForm() {
             &#10003; Registered Successfully!!
           </div>
         ) : (
-          <div className="none"></div>
+          <div className="form__invitation">Register Now!!</div>
         )}
         <form onSubmit={(e) => submitHandler(e)} className="form-container">
           <div className="form">
